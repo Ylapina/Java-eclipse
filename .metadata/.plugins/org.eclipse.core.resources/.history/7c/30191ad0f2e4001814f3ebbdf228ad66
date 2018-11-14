@@ -1,0 +1,33 @@
+package ch02_prj1_StudentRegistration;
+
+import java.util.Scanner;
+
+public class StudentRegistration {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// welcome page
+		System.out.println("Student Registration Form");
+		System.out.println("Enter FirstName");
+		String firstName = sc.next();
+		System.out.println("Enter LastName");
+		String lastName = sc.next();
+		System.out.println("Enter Year of birth");
+		int yearOfBirth = sc.nextInt();
+		
+		System.out.println("Welcome " + firstName + lastName);
+		System.out.println("Your registration is complete!");
+		//provide a password
+		System.out.println("Your temporary password is"+ firstName + "*" + yearOfBirth;
+		
+		
+		
+		
+		
+	
+				
+		
+
+	}
+
+}

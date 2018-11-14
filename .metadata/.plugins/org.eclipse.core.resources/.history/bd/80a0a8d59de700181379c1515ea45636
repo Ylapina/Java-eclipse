@@ -1,0 +1,10 @@
+package ch3_rej3_InterestCalculator;
+
+public class InterestCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

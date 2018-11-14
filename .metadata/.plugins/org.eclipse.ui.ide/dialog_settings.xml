@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\repos\sql\ch07_prj2_GradeConverter"/>
+		<item value="C:\installation programms\java\eclipse\ex_solutions\ch02_ex2_TestScore_sol"/>
+		<item value="C:\installation programms\java\eclipse\ex_starts\ch02_ex2_TestScore"/>
+		<item value="C:\installation programms\java\eclipse\ex_starts\ch01_ex1_TestScore"/>
+		<item value="C:\installation programms\java\eclipse\ex_starts\ch01_ex1_Invoice"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\installation programms\java\eclipse\book_apps"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

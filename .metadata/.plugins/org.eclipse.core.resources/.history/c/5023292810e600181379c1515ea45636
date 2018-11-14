@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class MyRectanglecaculator {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner (System.in);
+		
+		System.out.println("Welcome to the Area and Perimeter Calculator");
+		String choice= "Y";
+		while (choice.equalsIgnoreCase("y"));
+		
+		System.out.println("Enter length");
+		int length = s.nextInt();
+		System.out.println("Enter width");
+		int width= s.nextInt();
+		int area = width * length;
+		int perimeter = 2 * width + 2 * length;
+		System.out.println("Area");
+		System.out.println("Perimeter");
+		System.out.println("Continue?");
+		
+	
+		
+				
+
+	}
+
+}
