@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\repos\\sql\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\repos\\sql\\.git;
+GitRepositoriesView.GitDirectories=C\:\\repos\\sql\\.git;C\:\\installation programms\\Eclipse_works_space\\Bootcamp\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\repos\\sql\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
