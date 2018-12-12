@@ -10,8 +10,10 @@ public class InterestCalculator {
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Interest Calculator");
 		Scanner sc = new Scanner (System.in);
+		
 		String choice= "y";
 		while(choice.equalsIgnoreCase("Y")){
+			
 			System.out.println("Enter loan amount: ");
 			BigDecimal amt = sc.nextBigDecimal();
 			

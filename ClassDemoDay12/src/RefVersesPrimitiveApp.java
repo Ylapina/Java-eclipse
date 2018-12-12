@@ -11,7 +11,7 @@ public class RefVersesPrimitiveApp {
 		Product borissBook = 
 				
 		
-		System.out.println(Bye);
+		System.out.println("Bye");
 
 	}
 
