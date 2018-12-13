@@ -105,4 +105,9 @@ public class Console {
         }
         return d;
     }
+
+	public static void displayLine(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }
