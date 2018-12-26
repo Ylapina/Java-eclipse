@@ -5,14 +5,14 @@ public class Stuffy {
 	private String type;
 	private String size;
 	private String color;
-	private static int objectCount;
+	
 	
 	public  Stuffy (int id, String type, String size, String color) {
 		this.id= id;
 		this.type = type;
 		this.size = size;
 		this.color = color;
-		this.objectCount++;
+		
 	}
 
 	public int getId() {
@@ -49,10 +49,12 @@ public class Stuffy {
 
 	@Override
 	public String toString() {
-		return "Stuffy [id=" + id + ", type=" + type +
-				", size=" + size + ", color=" + color + ", objectCount = "+objectCount+"]";
+		return "Stuffy [id=" + id + ", type=" + type + ", size=" + size + ", color=" + color + "]";
+	}
+
+
 	}
 	
 	
 
-}
+

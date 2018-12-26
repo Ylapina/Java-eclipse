@@ -1,29 +1,52 @@
 package ui;
 
-import java.io.Console;
-
+import Util.Console;
+import business.Stuffy;
 import db.StuffyDB;
 
 public class StuffyDispenserApp {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to the Stuffy Dispenser Application");
-		System.out.println();
+		StuffyDB stuffyDB = new StuffyDB();
+		stuffyDB.populateStuffies();
 		
-		Console console = new Console();
-		StuffyDB st = new stuffyDB();
+		Console.displayLine("Welcome to the Stuffy Dispenser Application!\n");
+		int option;
 		
-		String choice = "y";
-		while(choice.equalsIgnoreCase("y"));
+		do {
+			Console.displayLine("\nMenu");
+			Console.displayLine("1 - Grab Stuffy");
+			Console.displayLine("2 - Add Stuffy");
+			Console.displayLine("3 - Exit\n");
+			
+			option=Console.getInt("Enter option",0,3);
 		
-		    System.out.println("Menu");
-		    System.out.println("1 - Grab Stuffy");
-		    System.out.println("2 - Add Stuffy");
-		    System.out.println("Exit");
-		    
-		    String category = console.getString("Enter an option: ");
-		    ArrayList<Stuffy>
+			switch (option) {
+			case 1:
+				
+				int listSize = stuffyDB.getStuffyListSize();
+				int stuffyID = (int)(Math.random() * listSize);
+				stuffyDB.grabStuffy(stuffyID);
+				break;
+				
+				
+			case 2:
+				// Add Stuffy
+				Console.displayLine("New Stuffy...");
+				String type = Console.getString("Type?    ");
+				String size = Console.getString("Size?    ");
+				String color = Console.getString("Color?   ");
+				Stuffy stuffy = new Stuffy(stuffyDB.getLastID(), type, size, color);
+				stuffyDB.addStuffy(stuffy);
+				break;
+			case 3:
+				
+				break;
+		}
 
-	}
+	} while (option != 3);
+	Console.displayLine("\nBye!");
+}
 
 }
+	
