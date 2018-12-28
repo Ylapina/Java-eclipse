@@ -29,7 +29,7 @@ import business.Stuffy;
 
 	    public void addStuffy(Stuffy s) {
 	        stuffies.add(s);
-	        Console.displayLine("A "+stuffies.size()+","+ "has been added to inventory");
+	        Console.displayLine("A "+ s.toString()+"has been added to inventory");
 	    }
 
 	    public int getStuffyListSize() {

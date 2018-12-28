@@ -49,7 +49,7 @@ public class Stuffy {
 
 	@Override
 	public String toString() {
-		return "Stuffy [id=" + id + ", type=" + type + ", size=" + size + ", color=" + color + "]";
+		return type + size + color;
 	}
 
 
