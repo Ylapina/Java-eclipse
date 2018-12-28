@@ -49,7 +49,7 @@ public class Stuffy {
 
 	@Override
 	public String toString() {
-		return type + size + color;
+		return size + "," + color + " "+ type;
 	}
 
 

@@ -19,7 +19,7 @@ public class StuffyDispenserApp {
 			Console.displayLine("2 - Add Stuffy");
 			Console.displayLine("3 - Exit\n");
 			
-			option=Console.getInt("Enter option",0,3);
+			option=Console.getInt("Enter option",0,4);
 		
 			switch (option) {
 			case 1:
